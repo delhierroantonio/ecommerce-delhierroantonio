@@ -1,0 +1,25 @@
+/* fotns */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Source+Sans+Pro:wght@300;600&display=swap');
+
+.nav {
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a9d8f;
+    padding: 1em 2em;
+}
+
+.nav__picture {
+    width: 15rem;
+    cursor: pointer;
+}
+
+.nav__links {
+    display: flex;
+    gap: 2em;
+}
+
+.nav__links a {
+    color: #000;
+}
