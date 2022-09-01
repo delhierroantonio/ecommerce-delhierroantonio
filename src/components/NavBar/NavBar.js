@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 import brandLogo  from '../../imagenes/softPcLogo.png';
+import CartWidget from '../CartWidget/CartWidget';
 
 function NavBar() {
     return(
@@ -25,6 +26,7 @@ function NavBar() {
                     <a href='/'>Contact</a>
                 </li>
             </ul>
+            <CartWidget />
         </nav>
     )
 }

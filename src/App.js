@@ -1,11 +1,12 @@
 import './App.css';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <NavBar />
-      <h1 style={{display: 'flex', justifyContent: 'center', padding: '1rem 0'}}>Ofertas de la semana!</h1>
+      <ItemListContainer greeting='Aqui iran los items de mi ecommerce' />
     </div>
   );
 }
